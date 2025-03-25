@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;;
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color:silver;
+    font-weight: bold;
+}
+
+th[rowspan="2"]{
+    background-color: wheat;
+}

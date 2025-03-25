@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: rgb(64, 89, 255);
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    display: flex;
+    justify-self: center;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url(https://brainpersonalities.com/wp-content/uploads/2021/11/unsika-karawang-1024x575.jpg);
+    background-repeat: repeat;
+}
+
+input[type="text"], textarea,select {
+    box-sizing: border-box;
+    width: 480px; 
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #0f0d0d;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+label {
+    margin-left: 12px;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+}
